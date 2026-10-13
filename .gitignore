@@ -1,0 +1,31 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+.cache/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+*.temp
+
+# 本地环境配置
+.env
+.env.*
+!.env.example
+
+# 系统生成文件
+*.o
+*.obj
+*.exe
+*.dll
